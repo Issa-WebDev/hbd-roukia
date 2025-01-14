@@ -2,9 +2,9 @@ import React from "react";
 
 const Gallery = () => {
   const images = [
-    "public/images/img1.jpg",
-    "public/images/img2.jpg",
-    "public/images/img3.jpg",
+    "/images/img1.jpg",
+    "/images/img2.jpg",
+    "/images/img3.jpg",
   ];
 
   return (
