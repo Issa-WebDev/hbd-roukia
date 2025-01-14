@@ -16,7 +16,7 @@ const MusicPlayer = () => {
 
   return (
     <div className="flex items-center justify-center mt-10">
-      <audio ref={audioRef} src="public/audio/birthday-music.mp3"></audio>
+      <audio ref={audioRef} src="/audio/birthday-music.mp3"></audio>
       <button
         onClick={togglePlay}
         className="p-4 bg-pink-600 text-white rounded-full shadow-lg hover:bg-pink-700"
