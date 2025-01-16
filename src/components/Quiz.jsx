@@ -5,12 +5,12 @@ const Quiz = () => {
     {
       question: "Quelle est ma couleur préférée ?",
       options: ["Bleu", "Rose", "Vert", "Rouge"],
-      answer: "Rose",
+      answer: "Vert",
     },
     {
       question: "Où avons-nous eu notre premier rendez-vous ?",
-      options: ["Café", "Plage", "Restaurant", "Cinéma"],
-      answer: "Restaurant",
+      options: ["Ecole", "Plage", "Restaurant", "Jamais"],
+      answer: "Jamais",
     },
   ];
 

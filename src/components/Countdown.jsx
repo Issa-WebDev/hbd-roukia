@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
-    const nextBirthday = new Date("2026-01-14"); // Change la date ici
+    const nextBirthday = new Date("2026-02-08");
     const now = new Date();
     const difference = nextBirthday - now;
 
