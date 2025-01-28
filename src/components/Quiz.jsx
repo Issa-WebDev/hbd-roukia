@@ -8,9 +8,9 @@ const Quiz = () => {
       answer: "Vert",
     },
     {
-      question: "Où avons-nous eu notre premier rendez-vous ?",
-      options: ["Ecole", "Plage", "Restaurant", "Jamais"],
-      answer: "Jamais",
+      question: "Qui de nous deux a fait le premier pas ?",
+      options: ["Moi", "Toi", "Person", "intermédiaire"],
+      answer: "Moi",
     },
   ];
 
