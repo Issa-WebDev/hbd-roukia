@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { FaPlay, FaPause } from "react-icons/fa";
 
-const PlayMusic = () => {
+const MusicPlay = () => {
   const [isplaying, setIsplaying] = useState(false);
   const audioRef = useRef(null);
 
@@ -27,4 +27,4 @@ const PlayMusic = () => {
   );
 };
 
-export default PlayMusic;
+export default MusicPlay;

@@ -1,6 +1,7 @@
-import PlayMusic from "./playMusic";
+
 
 import React from "react";
+import MusicPlay from "./MusicPlay";
 
 const Photo = () => {
   return (
@@ -10,7 +11,7 @@ const Photo = () => {
         <h1 className="text-3xl font-bold  pb-4">
           Joyeux anniversaire, ma chérie ! 🎉❤️
         </h1>
-        <PlayMusic />
+        <MusicPlay />
       </div>
     </div>
   );
