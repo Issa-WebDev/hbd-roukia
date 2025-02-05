@@ -1,6 +1,8 @@
 import PlayMusic from "./playMusic";
 
-const Banner = () => {
+import React from "react";
+
+const Photo = () => {
   return (
     <div className="relative flex justify-center w-[400px]">
       <img src="/images/banner.png" alt="roukia's Photo" className="w-full" />
@@ -14,4 +16,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Photo;
