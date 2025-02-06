@@ -19,7 +19,7 @@ function GrowingButton() {
           <h1 className="text-lg font-bold text-center text-pink-600">
             Mon message pour toi 👇🏻
           </h1>
-          <audio src="/audio/me.opus" controls></audio>
+          <audio src="/audio/me.mp3" controls></audio>
         </div>
       ) : (
         <div className="flex flex-col gap-4">
