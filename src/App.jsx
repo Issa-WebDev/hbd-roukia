@@ -1,5 +1,7 @@
+import CardMessage from "./components/CardMessage";
 import Celebration from "./components/Celebration";
 import Gallery from "./components/Gallery";
+import GrowingButton from "./components/GrowingButton";
 import Photo from "./components/Photo";
 
 const App = () => {
@@ -9,6 +11,8 @@ const App = () => {
         <Celebration />
         <Photo />
         <Gallery />
+        <GrowingButton />
+        <CardMessage />
       </section>
     </>
   );

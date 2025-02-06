@@ -15,11 +15,11 @@ const MusicPlay = () => {
   };
 
   return (
-    <div>
+    <div className="flex justify-center items-center">
       <audio src="\audio\birthday-music.mp3" ref={audioRef}></audio>
       <button
         onClick={() => handlePlay()}
-        className="p-4 mt-4 rounded-full bg-red-400 cursor-pointer text-white"
+        className="p-4 mt-4 rounded-full bg-white cursor-pointer text-gray-500"
       >
         {isplaying ? <FaPause size={25} /> : <FaPlay size={25} />}
       </button>
